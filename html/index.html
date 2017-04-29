@@ -1,8 +1,81 @@
 
 <html>
-    <head></head>
-    <body></body>
+    <head><title>Danilo Nieto</title>
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <h1>Cabecera Principal</h1>
+
+        <!--Listas NO ordenadas-->
+
+        <!-- ul>li*5 --->
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+
+        <!-- Listas Ordenadas -->
+
+        <ol>
+            <li>uno</li>
+            <li>dos</li>
+            <li>tres</li>
+            <li>cuatro</li>
+            <li>cinco
+                <ul>
+                    <li>q</li>
+                    <li>w</li>
+                    <li>e</li>
+                </ul>
+            </li>
+        </ol>
+
+
+        <!--Tablas -->
+            table> tr>th*2 + tr>td*2
+        <table border="1">
+            <tr>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+            </tr>
+            <tr>
+                <th>Danilo</th>
+                <th>Nieto</th>
+            </tr>
+        </table>
+
+        <!--Formulario -->
+
+        <form action="miServidor/sub">
+
+            <label>ticd po texto</label><br>
+            <input type="text">
+            <br>
+            <label>tipo pass</label><br>
+            <input type="password"><br>
+            <label>tipo email</label><br>
+            <input type="email">
+            <br>
+            <label>tipo boton</label><br>
+            <input type="button" value="enviar">
+            <br>
+            <button type="submit">Submit</button>
+            <br>
+            <button type="reset">Boton reset</button>
+            <!-- la pagina se recarga  por el action del form-->
+            <br>
+        </form>
+
+
+
+        <img src="https://cdn.worldvectorlogo.com/logos/angular-icon-1.svg"  alt="Logo Angular">
+    </body>
 </html>
+
+
 <nodo-principal1>
     <universidad nombre="Escuela Politecnica Nacional"
     direccion="bla bla bla" telefono="bla bla blaaa">
