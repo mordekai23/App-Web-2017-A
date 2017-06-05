@@ -5,7 +5,9 @@
     <title>Title</title>
     <style>
         a span {
-            display: none;}
+            display: none;
+            text-decoration: underline;
+        }
         a:hover span {
             text-decoration: underline;
             display: block;
@@ -15,21 +17,33 @@
         background-color: white;
         margin: 0;
         border-radius: 1em;
+        border: none;
         border-color: white;
     }
+    button span{
+        display: none;
+    }
 
-        .button:hover {
+        .button:hover{
             text-decoration: underline;
             margin: 0;
             border-color: white;
             cursor: pointer;
+
+
+
+        }
+        .button:hover span{
+            display: inline;
+            text-decoration: double;
+            background-color: #0f6cb6;
 
             padding:5px;
             border:1px solid #ccc;
             background-color:#f1f1f1;
             position:relative;
             width:200px;
-
+            top: 20px;
         }
     /*.button:hover span {
         display: block;
@@ -37,7 +51,7 @@
         top: 10px;
         left: 20px;
     }*/
-    
+
     </style>
 </head>
 <body>
@@ -51,12 +65,12 @@
 
 
 
-<button class="button" name="meGusta" value="Me gusta" type="submit"><img src="img/138-20.png">Me gusta</button>
+<button class="button" type="submit"><img src="img/138-20.png">Me gusta <span>hola</span></button>
 <table>
 <ul>
     <li><a>Me gusta</a>
-        <ul onmouseover="mcancelclosetime()"><div>asda</div></ul>
-        <ul><a>like</a></ul>
+        <ul><div>asda</div></ul>
+        <ul><a >like</a></ul>
         <ul><div>asda</div></ul>
     </li>
 </ul>
