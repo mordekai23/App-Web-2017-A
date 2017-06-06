@@ -1,0 +1,20 @@
+
+.button{
+    border: solid;
+    color: blue;
+}
+button:hover{
+    background-color: yellow;
+}
+button:focus{
+    background-color: red;
+}
+.boton-cuidado{
+    background-color: #ff28f0;
+    color: #3cffd2;
+}
+.boton-exito{
+    background-color: #fcff68;
+    color: #ff9071;
+}
+
