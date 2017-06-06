@@ -4,7 +4,16 @@
     <meta charset="UTF-8">
     <title>APP WEB</title>
     <style>
-
+    .reaccionesFace{
+        height: 42px;
+        width: 42px;
+        display: none;
+        animation-name: aparecer;
+        animation-duration: 1s;
+    }
+    .reacciones:hover img{
+        display: inline-block;
+    }
     a{
         text-decoration: none;
     }
@@ -73,17 +82,17 @@
 
 
 
-<button class="button" type="submit"><img src="img/138-20.png">Me gusta <span>
-    <a href="">me gusta</a>
-    <a href="">me envcanta</a>
-    <a href="">me divierte</a>
-    <a href="">me asombra</a>
-    <a href="">me entristece</a>
-    <a href="">me emperra</a>
-</span>
-</button>
+<button class="button" type="submit"><img src="img/138-20.png">Me gusta</button>
 
+<div class="reaccionesFace">
+    <button><img src="img/like.png"></button>
+    <button><img src="img/love.png"></button>
+    <button><img src="img/1496715458_happy.png"></button>
+    <button><img src="img/1496715414_surprise.png"></button>
+    <button><img src="img/1496715368_sad.png"></button>
+    <button><img src="img/1496715434_angry.png"></button>
 
+</div>
 
 
 <div></div>
