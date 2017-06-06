@@ -11,11 +11,13 @@ const  fs = require('fs');
 //npm install twj-a-nieto
 const express = require('twj-a-nieto');
 
-const passwords = require('machinepack-passwords');
+//const passwords = require('machinepack-passwords');
+
+let calculadora;
 
 let passwordAEncriptar = "1234";
 
-passwords.encryptPassword({
+calculadora.calculadoraUdla.passwords.encryptPassword({
     password: passwordAEncriptar,
 })
     .exec({
