@@ -1,0 +1,39 @@
+
+
+#main-header{
+    border-bottom: 20px solid #2b542c;
+}
+
+body{
+    background-image: url("img/fondo.jpg");
+}
+.card{
+    border: solid #000;
+}
+
+#animacion {
+
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes example {
+    0% { font-size: 100px;
+       font-family: "AR DESTINE";
+        color: #a94442}
+    /*25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}*/
+    100% {font-size: 50px;
+        font-family: "AR DESTINE";
+        color: #0f6cb6}
+}
+table{
+    width: 100%;
+}
