@@ -34,6 +34,12 @@ module.exports.policies = {
   * and its actions                                                          *
   *                                                                          *
   ***************************************************************************/
+  //policies.js -->api/policies
+  VistaController: {
+    vistaOculta : ['validarAnio2016']
+  }
+
+
 	// RabbitController: {
 
 		// Apply the `false` policy as the default for all of RabbitController's actions
